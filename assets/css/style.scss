@@ -2,3 +2,14 @@
 ---
 
 @import "jekyll-theme-cayman";
+
+#banner{
+	height: 120px;
+	padding-top: 0;
+	margin: 0, auto;
+	text-align: center;
+	background-color: #000;
+
+	display: flex;
+	flex direction: row;
+}
