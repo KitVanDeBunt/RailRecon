@@ -29,7 +29,7 @@ body {
   padding: 0;
   margin: 0;
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 16px;
+  font-size: 1.5rem;
   line-height: 1.5;
   color: $body-text-color;
 }
@@ -147,21 +147,20 @@ a {
   :first-child {
     margin-top: 0;
   }
-
   @include large {
-    max-width: 76rem;
-    padding: 2rem 6rem;
-    margin: 0 auto;
-    font-size: 1.5rem;
+    //max-width: 76rem;
+    //padding: 2rem 6rem;
+    //margin: 0 auto;
+    //font-size: 1.5rem;
   }
 
   @include medium {
-    padding: 2rem 4rem;
+    //padding: 2rem 4rem;
     font-size: 1.1rem;
   }
 
   @include small {
-    padding: 2rem 1rem;
+    //padding: 2rem 1rem;
     font-size: 1rem;
   }
 
