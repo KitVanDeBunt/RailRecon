@@ -14,28 +14,38 @@
 	height:100%;
 }
 
+.section-single-background{
+  background-repeat: no-repeat;
+  background-position: center;
+}
 
 .page-header {
 	width: 100%;
-    background-image: url('/assets/image/banner_2.jpg');
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
+  //background-image: url('/assets/image/banner_2.jpg');
+  background-repeat: no-repeat;
+  //background-size: contain;
+	//background-size: auto auto;
+	background-image: linear-gradient(90deg, $content-bg-color-secondary, $content-bg-color);
+  background-position: center;
 	background-color: $header-bg-color;
+}
+
+#banner{
+	width: 76rem;
+	height: 12.45rem;
+	//width: 1227px;
+	//height: 201px;
+	@extend .section-single-background;
+	background-image: url('/assets/image/railrecon_titletextfixed.png');
 }
 
 body{
 	background-color: $bg-color;
 }
 
-.section-single-background{
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
 .main-content{
   background-color: $content-bg-color;
-  background-image: linear-gradient(120deg, $content-bg-color-secondary, $content-bg-color);
+  background-image: linear-gradient(90deg, $content-bg-color-secondary, $content-bg-color);
 	.b0{
 	}
 	.b1{
@@ -55,7 +65,7 @@ body{
 }
 
 .width-section{
-	height:770px;
+	min-height:770px;
 }
 
 .sub-main-content{
@@ -63,6 +73,23 @@ body{
     padding: 2rem 6rem;
     margin: 0 auto;
 		text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.85);
+}
+
+.sub-page-header{
+    max-width: 76rem;
+    margin: 0 auto;
+		text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.85);
+		h1{
+	    font-size: 1.5rem;
+		}
+}
+
+#top-section{
+	padding: 0 0 0 0;
+}
+
+.topnav {
+	padding: 2rem 6rem;
 }
 
 .topnav ul {

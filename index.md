@@ -3,11 +3,17 @@ layout: default
 ---
 
 <div class="width-section b0">
-<div class="sub-main-content">
+<div class="sub-main-content" id="top-section" >
 <div class="video-container">
 	<iframe src="https://www.youtube.com/embed/NpEaa2P7qZI?rel=0" frameborder="0" allowfullscreen>
 	</iframe>
 </div>
+
+<!-- title
+<img href="/image/railrecon_titletextfixed.png" height="100px" width="600px">
+<img href="assets/image/back_02.jpg" height="100px" width="600px">
+-->
+<div id="banner"></div>
 
 <nav class="topnav">
 <ul>
