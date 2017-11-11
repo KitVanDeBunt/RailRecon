@@ -1,12 +1,17 @@
 ---
 layout: default
 ---
-
+{% comment %}
+https://developers.facebook.com/docs/plugins/page-plugin/
+{% endcomment %}
 <div class="width-section b0">
 <div class="sub-main-content" id="top-section" >
+
+<div class="total-width">
 <div class="video-container">
 	<iframe src="https://www.youtube.com/embed/NpEaa2P7qZI?rel=0" frameborder="0" allowfullscreen>
 	</iframe>
+</div>
 </div>
 
 <!-- title
@@ -16,41 +21,52 @@ layout: default
 <div id="banner"></div>
 
 <nav class="topnav">
-<ul>
-<li><a href="#">Rail Recon</a></li>
-<li><a href="#features">Features</a></li>
-<li><a href="#download">Download</a></li>
-<li><a href="#team">Team</a></li>
-<li><a href="#contact">Contact</a></li>
-</ul>
+{% include site_nav.html %}
 </nav>
 </div>
 </div>
 
 <div class="width-section b1">
 <div class="sub-main-content">
-<div id="features"><h1>Features</h1></div>
+<div id="features"><h2>Features</h2></div>
 This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
 </div>
 </div>
 
 <div class="width-section b2">
 <div class="sub-main-content">
-	<div id="download"><h1>Download</h1></div>
+	<div id="download"><h2>Download</h2></div>
 	This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
 </div>
 </div>
 
 <div class="width-section b3">
 <div class="sub-main-content">
-	<div id="team"><h1>Team</h1></div>
+	<div id="team"><h2>Team</h2></div>
 	This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
 </div>
 </div>
 
 <div class="width-section b4">
 <div class="sub-main-content">
-	<div id="contact"><h1>Contact</h1></div>
+	<div id="contact"><h2>Contact</h2></div>
 	This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
 </div>
 </div>
+
+<div class="width-section b5">
+<div class="sub-main-content">
+	<div id="social-media"><h2>Social media</h2></div>
+
+	<a class="twitter-timeline" data-height="750" data-width="500" data-theme="light" href="https://twitter.com/RailReconGame?ref_src=twsrc%5Etfw">Tweets by RailReconGame</a>
+
+	<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FRailReconGame%2F&tabs=timeline&width=500&height=750&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="500" height="750" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+
+</div>
+</div>
+
+<footer class="site-footer">
+<div class="nav-footer">
+	{% include site_nav.html %}
+</div>
+</footer>

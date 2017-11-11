@@ -43,6 +43,12 @@ a {
   }
 }
 
+.project-name a{
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: $section-headings-color;
+}
+
 .btn {
   display: inline-block;
   margin-bottom: 1rem;
