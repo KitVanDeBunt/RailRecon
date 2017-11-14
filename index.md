@@ -4,7 +4,7 @@ layout: default
 {% comment %}
 https://developers.facebook.com/docs/plugins/page-plugin/
 {% endcomment %}
-<div class="width-section b0">
+<div class="b0">
 <div class="sub-main-content" id="top-section" >
 
 <div class="total-width">
@@ -13,18 +13,17 @@ https://developers.facebook.com/docs/plugins/page-plugin/
 	</iframe>
 </div>
 </div>
-
 <!-- title
 <img href="/image/railrecon_titletextfixed.png" height="100px" width="600px">
 <img href="assets/image/back_02.jpg" height="100px" width="600px">
 -->
 <div id="banner"></div>
+</div>
+</div>
 
 <nav class="topnav">
 {% include site_nav.html %}
 </nav>
-</div>
-</div>
 
 <div class="width-section b1">
 <div class="sub-main-content">
@@ -60,8 +59,9 @@ This is a normal paragraph following a header. GitHub is a code hosting platform
 
 	<a class="twitter-timeline" data-height="750" data-width="500" data-theme="light" href="https://twitter.com/RailReconGame?ref_src=twsrc%5Etfw">Tweets by RailReconGame</a>
 
-	<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FRailReconGame%2F&tabs=timeline&width=500&height=750&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="500" height="750" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+<div class="fb-page" data-href="https://www.facebook.com/RailReconGame/" data-tabs="timeline" data-width="500" data-height="750" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/RailReconGame/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/RailReconGame/">Rail Recon Game</a></blockquote></div>
 
+<!---->
 </div>
 </div>
 
