@@ -9,7 +9,7 @@ https://developers.facebook.com/docs/plugins/page-plugin/
 
 <div class="total-width">
 <div class="video-container">
-	<iframe src="https://www.youtube.com/embed/NpEaa2P7qZI?rel=0" frameborder="0" allowfullscreen>
+	<iframe src="https://www.youtube.com/embed/s7ZGhgvEv9Q?rel=0" frameborder="0" allowfullscreen>
 	</iframe>
 </div>
 </div>
@@ -35,7 +35,8 @@ This is a normal paragraph following a header. GitHub is a code hosting platform
 <div class="width-section b2">
 <div class="sub-main-content">
 	<div id="download"><h2>Download</h2></div>
-	This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+	<iframe src="http://store.steampowered.com/widget/746860/" frameborder="0" width="100%" height="490"></iframe>
+	<!--<iframe src="http://store.steampowered.com/widget/746860/" frameborder="0" width="646" height="190"></iframe>-->
 </div>
 </div>
 
