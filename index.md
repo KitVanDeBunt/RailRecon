@@ -28,7 +28,17 @@ https://developers.facebook.com/docs/plugins/page-plugin/
 <div class="width-section b1">
 <div class="sub-main-content">
 <div id="features"><h2>Features</h2></div>
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+	<p>
+		In Rail Recon, you are taking control of a reconnaissance robot tasked with discovering the depths and secrets of an old mining facility, known as "Project Tunnel". Communication with the outside world is cut, and armed only with a laser cannon you must fight through the facility's defenses to complete your mission.
+	</p>
+	<p>
+	<ul>
+	<li>Mazes of rails and puzzle-like traps make it clear, you are not welcome here.</li>
+	<li>Armed with a Laser cannon you must take out enemies on your way to the exit.</li>
+	<li>Collect crystals to power massive doors leading you to the next level.</li>
+	<li>Use your energy shield to absorb incoming fire, or destroy enemies by ramming them.</li>
+	</ul>
+	</p>
 </div>
 </div>
 
@@ -42,15 +52,39 @@ This is a normal paragraph following a header. GitHub is a code hosting platform
 
 <div class="width-section b3">
 <div class="sub-main-content">
-	<div id="team"><h2>Team</h2></div>
-	This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+	<div id="background"><h2>Background</h2></div>
+	<p>Rail Recon is inspired by „Elevator Action“ developed by Taito in 1983. Rail Recon’s developement was started by a team of first year students at NHTV in Breda as part of the study and is now being continued by a part of the original team. The Goal from the project brief was to choose a game from the 1980’s and re-design it’s mechanics and aesthetics, while keeping the dynamics of our Reference game. 
+	</p>
+	<p>Our goal was to make a new game, while keeping true the feeling of our reference game. We wanted to keep the pathfinding dynamic of Elevator Action, as well as creating a rather unpredictable game to make the player always re-stragize. This can be seen in the later, more open levels of the game. 
+	</p>
+	<p>To make this possible we created a rail based movement system with puzzle elements. Combined with combat, we limit the player movement while creating a need to repsond quickly and find a new path.
+	</p>
 </div>
 </div>
 
 <div class="width-section b4">
 <div class="sub-main-content">
-	<div id="contact"><h2>Contact</h2></div>
-	This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+	<div id="comment"><h2>Comment</h2></div>
+	<div id="disqus_thread"></div>
+	<script>
+
+	/**
+	*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+	*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+	
+	var disqus_config = function () {
+	this.page.url = 'http://www.rail-recon.com/';  // Replace PAGE_URL with your page's canonical URL variable
+	this.page.identifier = 'rail-recon-front-page'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+	};
+	
+	(function() { // DON'T EDIT BELOW THIS LINE
+	var d = document, s = d.createElement('script');
+	s.src = 'https://rail-recon.disqus.com/embed.js';
+	s.setAttribute('data-timestamp', +new Date());
+	(d.head || d.body).appendChild(s);
+	})();
+	</script>
+	<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 </div>
 </div>
 
