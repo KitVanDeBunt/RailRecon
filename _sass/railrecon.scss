@@ -19,6 +19,16 @@
   background-position: center;
 }
 
+$back-transition-speed: .5s;
+
+.back-transition{
+	/* TRANSITION */
+	-webkit-transition: background $back-transition-speed;
+	-moz-transition: background $back-transition-speed;
+	-o-transition: background $back-transition-speed;
+	transition: background $back-transition-speed;
+}
+
 .page-header {
 	width: 100%;
   //background-image: url('/assets/image/banner_2.jpg');
@@ -55,6 +65,10 @@ body{
 	background-image: url('/assets/image/back_01_2.jpg');
 	@extend .section-single-background;
 	}
+	.b1:hover{
+	background-image: url('/assets/image/back_01_2_hover.jpg');
+	@extend .back-transition;
+	}
 	.b2{
 	background-image: url('/assets/image/background_s.5.jpg');
 		//text-align: right;
@@ -62,6 +76,11 @@ body{
 	.b3{
 	background-image: url('/assets/image/back_02.jpg');
 	@extend .section-single-background;
+	@extend .back-transition;
+	}
+	.b3:hover{
+	background-image: url('/assets/image/back_02_hover.jpg');
+	@extend .back-transition;
 	}
 	.b4{
 	background-image: url('/assets/image/background_s.5.jpg');
