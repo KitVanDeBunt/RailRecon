@@ -53,9 +53,9 @@ https://developers.facebook.com/docs/plugins/page-plugin/
 <div class="width-section b3">
 <div class="sub-main-content">
 	<div id="background"><h2>Background</h2></div>
-	<p>Rail Recon is inspired by „Elevator Action“ developed by Taito in 1983. Rail Recon’s developement was started by a team of first year students at NHTV in Breda as part of the study and is now being continued by a part of the original team. The Goal from the project brief was to choose a game from the 1980’s and re-design it’s mechanics and aesthetics, while keeping the dynamics of our Reference game. 
+	<p>Rail Recon is inspired by „Elevator Action“ developed by Taito in 1983. Rail Recon’s developement was started by a team of first year students at NHTV in Breda as part of the study and is now being continued by a part of the original team. The Goal from the project brief was to choose a game from the 1980’s and re-design its mechanics and aesthetics, while keeping the dynamics of our Reference game. 
 	</p>
-	<p>Our goal was to make a new game, while keeping true the feeling of our reference game. We wanted to keep the pathfinding dynamic of Elevator Action, as well as creating a rather unpredictable game to make the player always re-stragize. This can be seen in the later, more open levels of the game. 
+	<p>Our goal was to make a new game, while keeping true the feeling of our reference game. We wanted to keep the pathfinding dynamic of Elevator Action, as well as creating a rather unpredictable game to make the player always re-stragize. This can be seen in the later, more open levels of the game.
 	</p>
 	<p>To make this possible we created a rail based movement system with puzzle elements. Combined with combat, we limit the player movement while creating a need to repsond quickly and find a new path.
 	</p>
@@ -71,12 +71,12 @@ https://developers.facebook.com/docs/plugins/page-plugin/
 	/**
 	*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
 	*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-	
+
 	var disqus_config = function () {
 	this.page.url = 'http://www.rail-recon.com/';  // Replace PAGE_URL with your page's canonical URL variable
 	this.page.identifier = 'rail-recon-front-page'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
 	};
-	
+
 	(function() { // DON'T EDIT BELOW THIS LINE
 	var d = document, s = d.createElement('script');
 	s.src = 'https://rail-recon.disqus.com/embed.js';
